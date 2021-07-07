@@ -4,9 +4,12 @@
     android:layout_height="match_parent">
 
     <fragment
-        android:id="@+id/noteslist"
+        android:id="@+id/notes"
         android:name="com.example.notes.NotesListFragment"
         android:layout_width="match_parent"
-        android:layout_height="match_parent" />
+        android:layout_height="match_parent"
+        android:layout_marginRight="@dimen/marginLR_fragment"
+        android:layout_marginLeft="@dimen/marginLR_fragment"
+        android:layout_gravity="center"/>
 
 </FrameLayout>
